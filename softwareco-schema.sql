@@ -1,10 +1,10 @@
 -- drop all tables including constraints: use cascade with caution
-/*DROP TABLE IF EXISTS department CASCADE;
-DROP TABLE IF EXISTS employee CASCADE;
-DROP TABLE IF EXISTS manager CASCADE;
-DROP TABLE IF EXISTS personal_info CASCADE;
-DROP TABLE IF EXISTS salary CASCADE;
-DROP TABLE IF EXISTS title CASCADE;*/
+-- DROP TABLE IF EXISTS department CASCADE;
+-- DROP TABLE IF EXISTS employee CASCADE;
+ DROP TABLE IF EXISTS manager CASCADE;
+-- DROP TABLE IF EXISTS personal_info CASCADE;
+-- DROP TABLE IF EXISTS salary CASCADE;
+-- DROP TABLE IF EXISTS title CASCADE;
 
 
 CREATE TABLE department (
@@ -22,10 +22,11 @@ CREATE TABLE employee (
 
 CREATE TABLE manager (
 	man_dept VARCHAR(225),
-	man_id VARCHAR(225),
+	man_id INT,
 	from_date DATE,
 	to_date DATE,
-	FOREIGN KEY (man_dept) REFERENCES department(id)
+	FOREIGN KEY (man_dept) REFERENCES department(id),
+	FOREIGN KEY (man_id) REFERENCES personal_info(id)
 );
 
 CREATE TABLE personal_info (
