@@ -134,3 +134,7 @@ WHERE department.name = 'Sales' OR department.name = 'Development';
 
 -- the frequency count of employee last names in descending order
 
+SELECT last_name, COUNT(*)
+FROM personal_info
+GROUP BY last_name
+ORDER BY last_name DESC;
