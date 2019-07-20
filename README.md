@@ -1,2 +1,10 @@
-# postgresql-data-modeling-engineering-analysis
-Model, Engineer, and Analyze Data of Software Co. Employees
+# Model, Engineer, and Analyze Software Co. Database with PostgreSQL
+
+
+## Data Modeling
+![entity-relationship-diagram](entity-relationship-diagram.png)
+
+## Data Engineering
+
+
+## Data Analysis

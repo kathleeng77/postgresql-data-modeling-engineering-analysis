@@ -1,7 +1,7 @@
 -- drop all tables including constraints: use cascade with caution
 -- DROP TABLE IF EXISTS department CASCADE;
 -- DROP TABLE IF EXISTS employee CASCADE;
- DROP TABLE IF EXISTS manager CASCADE;
+-- DROP TABLE IF EXISTS manager CASCADE;
 -- DROP TABLE IF EXISTS personal_info CASCADE;
 -- DROP TABLE IF EXISTS salary CASCADE;
 -- DROP TABLE IF EXISTS title CASCADE;
