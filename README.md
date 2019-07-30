@@ -6,7 +6,7 @@
 
 ## Data Engineering
 
-Schemas:
+I created the following schemas:
 
 ```sql
 CREATE TABLE department (
@@ -66,3 +66,22 @@ SELECT * FROM title;
 ```
 
 ## Data Analysis
+
+I performed the following analysis with queries of:
+
+1. all employee numbers, last names, first names, genders, and salaries.
+
+2. all employees who were hired in 1986.
+
+3. all managers and their department numbers, department names, employee numbers, last names, first names, and start and end employment dates.
+
+4. all departments of each employee with employee numbers, last names, first names, and department names.
+
+5. all employees whose first name is "Hercules" and last names begin with "B."
+
+6. all employees in the Sales department, including their employee numbers, last names, first names, and department names.
+
+7. all employees in the Sales and Development departments with employee numbers, last names, first names, and department names.
+
+8. the frequency count of employee last names in descending order.
+
